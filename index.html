@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<style>
+  :root {
+    --page-color: linear-gradient(45deg, skyblue, purple);
+    --page-font: monospace;
+    --title-color: white;
+    --picture-caption-color: black;
+  }
+
+  body {
+    background: var(--page-color, lightgray);
+    font-family: var(--page-font, arial);
+    color: white;
+  }
+  main{
+    margin: auto;
+   overflow: hidden;
+  }
+  header {
+    color: var(--title-color, white);
+    text-align: center;
+    font-size: 3vmin;
+  }
+
+  h2 {
+    font-size: 3vmin;
+    text-align: center;
+    margin-top: 3vmin;
+    margin-bottom: 3vmin;
+  }
+  #img-div{
+    text-align: center;
+    font-size: 20px;
+    color: var(--picture-caption-color, black);
+    background: white;
+    margin: 0px 20px 0px 20px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+  }
+  #image{
+   max-width: 100%;
+   display: block;
+   height: auto;
+   margin: auto;
+  }
+  #img-caption{
+    margin: 10px;
+  }
+ 
+  li{
+    margin-bottom: 20px;
+  }
+
+  footer{
+    margin-top: 10vmin;
+    text-align: center;
+    font-size: 2.5vmin;
+  }
+
+  ul{
+    display: table;
+    margin: auto;
+    font-size: 2.5vmin;
+  }
+</style>
+<html>
+  <body>
+  <main id="main">
+    <header id="title">
+      <h1>Martin Luther King Jr.</h1>
+      <h2>
+        "We must learn to live together as brothers or perish together as
+        fools."
+        <br>--Martin Luther King jr.</br>
+      </h2>
+    </header>
+    <div id="img-div">
+      <figure>
+        <img id="image" src="martinluther.png" alt="A pic of Martin Luther King Jr.">
+        <figcaption id="img-caption">Martin Luther King jr. before his assassination in 1968</figcaption>
+      </figure>
+    </div>
+    <article  id="tribute-info">
+      <section>
+        <h2>-Here's a timeline of Martin Luther King Jr.'s life-</h2>
+        <ul>
+          <li><strong>1929</strong> Martin Luther King, Jr., is born in Atlanta to teacher Alberta King and Baptist minister Michael Luther King.</li>
+          <li><strong>1944</strong> Graduates high school at age 15, enters Morehouse College shortly thereafter.</li>
+          <li><strong>1948</strong> Receives BA in sociology from Morehouse College at age 19.</li>
+          <li><strong>1951</strong> Receives degree from Crozer Theological Seminary (Chester, Pa.), enrolls in Boston University Ph.D program.</li>
+          <li><strong>1953</strong> Marries New England Conservatory music student Coretta Scott; they eventually have four children.</li>	
+          <li><strong>1954</strong> Becomes minister of Dexter Avenue Baptist Church, Montgomery, Alabama.</li>
+          <li><strong>1955</strong> Receives Ph.D in systematic theology from Boston University.</li>
+        </ul>
+      </section>
+      <p>
+        
+      </p>
+    </article>
+  </main>
+  <footer>
+    Learn more about Martin Luther King Jr at this <a id="tribute-link" href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr." target="_blank">Wikipedia</a> page.
+  </footer>
+</body>
+</html>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
